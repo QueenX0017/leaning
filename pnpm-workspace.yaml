@@ -1,0 +1,8 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+  - 'tests'
+
+# pnpm 12 构建脚本白名单（esbuild 是 vite/tsx 的底层依赖，需要运行 postinstall 下载平台二进制）
+allowBuilds:
+  esbuild: true

@@ -1,0 +1,26 @@
+{
+  "name": "cx-study-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CX学习通 —— 超星学习通签到系统技术研究与工程实践（协议研究 / 本地测试 / 工程实践）",
+  "packageManager": "pnpm@12.3.4",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.0.0"
+  }
+}
